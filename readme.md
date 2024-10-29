@@ -32,6 +32,7 @@ Dan untuk mengubah Port bawaan tersebut ke Port yang kita mau. Kita bisa menggan
 Dan untuk menerapkan perubahan yang telah dilakukan, kita bisa menggunakan
 
 $ ufw allow 40/tcp
+
 $ ufw enable
 
 ![Screenshot 2024-10-30 000019](https://github.com/user-attachments/assets/2cb46349-872d-4adb-b48a-861615f75d13)
