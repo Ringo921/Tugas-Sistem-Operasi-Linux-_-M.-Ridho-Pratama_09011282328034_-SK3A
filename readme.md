@@ -6,6 +6,8 @@ NIM    : 09011282328034
 
 Tugas Sistem Operasi Mengubah Port SSH default ke Port 40
 
+
+
 Untuk melihat Port ssh yang digunakan sekarang kita bisa menggunakan command berikut:
 
 systemctl status ssh
