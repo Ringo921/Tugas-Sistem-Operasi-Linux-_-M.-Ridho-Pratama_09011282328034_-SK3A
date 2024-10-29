@@ -1,7 +1,10 @@
 Nama  : M.Ridho Pratama
+
 Kelas  : SK3A
+
 NIM    : 09011282328034
-Tugas Sistem Operasi
+
+Tugas Sistem Operasi Mengubah Port SSH default ke Port 40
 
 Untuk melihat Port ssh yang digunakan sekarang kita bisa menggunakan command berikut:
 
