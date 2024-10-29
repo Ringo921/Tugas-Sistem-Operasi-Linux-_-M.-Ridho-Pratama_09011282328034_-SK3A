@@ -36,8 +36,17 @@ ufw enable
 
 ![Screenshot 2024-10-30 000019](https://github.com/user-attachments/assets/2cb46349-872d-4adb-b48a-861615f75d13)
 
-Terakhir. Untuk melihat status ufw kita bisa menggunakan
+Untuk melihat status ufw kita bisa menggunakan
 
 ufw status
 
 ![Screenshot 2024-10-30 000033](https://github.com/user-attachments/assets/1c6a2737-f644-47c2-b292-e24385607d08)
+
+Terakhir. Untuk melihat perubahan Port yang telah dilakukan sebelumnya tadi, kita bisa mengeceknya dengan 
+
+systemctl status ssh
+
+![Screenshot 2024-10-30 005226](https://github.com/user-attachments/assets/5d2e54a0-682f-4019-9857-6f6c58ca3b6d)
+
+Disini terlihat bahwa Port yang sebelumnya Port 22 telah berubah menjadi ke Port 40
+
