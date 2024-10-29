@@ -15,7 +15,6 @@ systemctl status ssh
 ![Screenshot 2024-10-29 234729](https://github.com/user-attachments/assets/6f7c25bc-76a3-43c6-86d1-f52fd7560220)
 
 Pada gambar tersebut menampilkan bahwa Port masih menggunakan Port bawaan atau Port 22 
-
 Dan untuk mengganti Port bawaan tersebut ke Port yang kita mau (Port 40) kita bisa menggunakan command berikut
 
 sudo nano /etc/ssh/ssh_config
