@@ -9,12 +9,14 @@ Tugas Sistem Operasi Mengubah Port SSH default ke Port 40
 
 
 Untuk melihat Port ssh yang digunakan sekarang kita bisa menggunakan command berikut:
+
 systemctl status ssh
 
 ![Screenshot 2024-10-29 234729](https://github.com/user-attachments/assets/6f7c25bc-76a3-43c6-86d1-f52fd7560220)
 
 Pada gambar tersebut menampilkan bahwa Port masih menggunakan Port bawaan atau Port 22 
 Dan untuk mengganti Port bawaan tersebut ke Port yang kita mau (Port 40) kita bisa menggunakan command berikut
+
 sudo nano /etc/ssh/ssh_config
 
 ![Screenshot 2024-10-29 233604](https://github.com/user-attachments/assets/627403d4-d1d3-4915-b38a-bd0f87995f27)
@@ -28,17 +30,20 @@ Dan untuk mengubah Port bawaan tersebut ke Port yang kita mau. Kita bisa menggan
 ![Screenshot 2024-10-29 235132](https://github.com/user-attachments/assets/d945364f-57f9-4aed-b9d5-fb14272f28d5)
 
 Dan untuk menerapkan perubahan yang telah dilakukan, kita bisa menggunakan
+
 ufw allow 40/tcp
 ufw enable
 
 ![Screenshot 2024-10-30 000019](https://github.com/user-attachments/assets/2cb46349-872d-4adb-b48a-861615f75d13)
 
 Untuk melihat status ufw kita bisa menggunakan
+
 ufw status
 
 ![Screenshot 2024-10-30 000033](https://github.com/user-attachments/assets/1c6a2737-f644-47c2-b292-e24385607d08)
 
 Terakhir. Untuk melihat perubahan Port yang telah dilakukan sebelumnya tadi, kita bisa mengeceknya dengan 
+
 systemctl status ssh
 
 ![Screenshot 2024-10-30 005226](https://github.com/user-attachments/assets/5d2e54a0-682f-4019-9857-6f6c58ca3b6d)
